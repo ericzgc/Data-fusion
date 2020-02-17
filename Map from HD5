@@ -17,7 +17,7 @@ import sys
 
 #This finds the user's current path so that all hdf4 files can be found
 try:
-	fileList=open('fileList.txt','r')
+	fileList=open('he5fileList.txt','r')
 except:
 	print('Did not find a text file containing file names (perhaps name does not match)')
 	sys.exit()
